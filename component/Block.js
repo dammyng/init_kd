@@ -122,9 +122,7 @@ const styles = StyleSheet.create({
         },
        fluid: {
             width: 'auto',
-        }, fluids: {
-            width: 'auto',
-        },
+        }, 
     });
 
 export default Block

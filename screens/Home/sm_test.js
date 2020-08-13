@@ -17,7 +17,7 @@ const SM_test = () => {
 
     return (
         <>
-            <Button onPress={() => dispatch(add_todos(current_time()))} title="ADD" ></Button>
+            <Button onPress={() => dispatch(add_todos(current_time()))} title="ADD NEW" ></Button>
         </>
     );
 };
