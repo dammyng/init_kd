@@ -10,6 +10,11 @@ const Home = () => {
 
     return (
         <>
+         {
+                todos.map(todo => <Text key={todo}>{todo}</Text>)
+            }
+            <SM_test></SM_test>
+            
             <Block row space="around">
                 <Block>
                     <Icon name="home" size={30} color="#900" />
@@ -21,10 +26,7 @@ const Home = () => {
                 </Block>
             </Block>
 
-            {
-                todos.map(todo => <Text key={todo}>{todo}</Text>)
-            }
-            <SM_test></SM_test>
+           
         </>
     );
 };
