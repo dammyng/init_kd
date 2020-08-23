@@ -5,3 +5,9 @@
 - Splash Screen
 - Block Component
 - Icon set
+
+```
+git checkout -b rename-app
+react-native-rename <newName>
+cd ios && pod install && cd ..
+```
